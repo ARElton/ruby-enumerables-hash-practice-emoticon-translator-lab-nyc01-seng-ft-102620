@@ -9,7 +9,7 @@ def load_library
    meaning: {},
    emoticon: {}
  }
- YMAL.load_file.each do |meaning, describe|
+ YAML.load_file.each do |meaning, describe|
    english, japanese = describe
    binding.pry
 end
