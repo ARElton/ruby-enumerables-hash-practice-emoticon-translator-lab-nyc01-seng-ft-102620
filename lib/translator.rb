@@ -6,7 +6,7 @@ require "pry"
 
 def load_library(file)
  final_emoticons = {} 
- 
+ binding.pry
  final_emoticons
 end
 
