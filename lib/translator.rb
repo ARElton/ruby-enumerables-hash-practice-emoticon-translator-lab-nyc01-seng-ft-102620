@@ -4,12 +4,12 @@ require 'yaml'
 require 'pry' 
 
 
-def load_library
+def load_library(emoticons.yml)
  emoticons = {
    meaning: {},
    emoticon: {}
  }
- YAML.load_file.each do |meaning, describe|
+ YAML.load_file('emoticons.yml').each do |meaning, describe|
    english, japanese = describe
    binding.pry
 end
