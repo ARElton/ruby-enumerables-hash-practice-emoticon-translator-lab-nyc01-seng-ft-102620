@@ -11,8 +11,6 @@ def load_library
  }
  YAML.load_file('lib/emoticons.yml').each do |key, value|
    english,japanese = value 
-   
-   
   
    binding.pry
   
