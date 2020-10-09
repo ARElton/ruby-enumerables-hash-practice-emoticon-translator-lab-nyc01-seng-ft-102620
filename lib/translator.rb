@@ -10,10 +10,10 @@ def load_library
    emoticon: {}
  }
  YAML.load_file('lib/emoticons.yml').each do |key, value|
-   value.each do |key, value|
+   
   
    binding.pry
-  end
+  
  end
  emoticons
 end
