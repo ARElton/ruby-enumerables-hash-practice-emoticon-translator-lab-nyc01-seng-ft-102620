@@ -31,4 +31,5 @@ def get_japanese_emoticon(file, emoticon)
       return value[:japanese]
     end
 end
+return "Sorry, that emoticon was not found"
 end
