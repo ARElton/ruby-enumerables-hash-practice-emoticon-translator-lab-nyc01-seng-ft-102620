@@ -1,7 +1,7 @@
 # require modules here
-require 'yaml'
+require "yaml"
 
-require 'pry' 
+require "pry"
 
 
 def load_library(file)
@@ -11,7 +11,7 @@ def load_library(file)
  }
  YAML.load_file('emoticons.yml').each do |meaning, describe|
    english, japanese = describe
-   binding.pry
+   binding.pry 
    puts emoticons
  end
 end
