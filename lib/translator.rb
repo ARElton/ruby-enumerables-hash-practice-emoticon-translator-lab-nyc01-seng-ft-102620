@@ -6,10 +6,6 @@ require "pry"
 
 def load_library(file)
  
- 
- end
- end
- final_emoticon_hash
 end
 
 def get_japanese_emoticon
