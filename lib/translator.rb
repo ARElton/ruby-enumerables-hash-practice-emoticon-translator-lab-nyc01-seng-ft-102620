@@ -11,7 +11,7 @@ def load_library
  }
  YMAL.load_file.each do |meaning, describe|
    english, japanese = describe
-   
+   binding.pry
 end
 
 def get_japanese_emoticon
