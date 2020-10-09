@@ -9,7 +9,7 @@ def load_library(file)
  YAML.load_file(file).each do |key, value|
    final_emoticons[key] = {}
    final_emoticons[key][:english] = ""
-   final_emoticons
+   final_emoticons[key][:japanese] = ""
    
    
  end
