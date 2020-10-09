@@ -11,9 +11,10 @@ def load_library
  }
  YAML.load_file('lib/emoticons.yml').each do |meaning, describe|
    english, japanese = describe
-   
+   binding.pry
   
  end
+ emoticons
 end
 
 def get_japanese_emoticon
