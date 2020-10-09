@@ -10,7 +10,6 @@ def load_library(file)
    final_emoticons[key] = {}
    final_emoticons[key][:english] = value[0]
    final_emoticons[key][:japanese] = value[1]
-   binding.pry
    
  end
  final_emoticons
