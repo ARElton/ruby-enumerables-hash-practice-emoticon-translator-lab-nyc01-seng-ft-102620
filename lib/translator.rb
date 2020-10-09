@@ -10,12 +10,11 @@ def load_library(file)
    final_emoticons[key] = {}
    final_emoticons[key][:english] = value[0]
    final_emoticons[key][:japanese] = value[1]
-   
  end
  final_emoticons
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file, emoticon)
   # code goes here
 end
 
