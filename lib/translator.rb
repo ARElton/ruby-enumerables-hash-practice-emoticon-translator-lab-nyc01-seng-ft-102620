@@ -8,7 +8,10 @@ def load_library(file)
  final_emoticons = {} 
  YAML.load_file(file).each do |key, value|
    final_emoticons[key] = {}
-   binding.pry
+   final_emoticons[key][:english] = ""
+   final_emoticons
+   
+   
  end
  final_emoticons
 end
