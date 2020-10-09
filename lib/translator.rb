@@ -25,6 +25,6 @@ return "Sorry, that emoticon was not found"
 end
 
 
-def get_japanese_emoticon()
+def get_japanese_emoticon(file, emoticon)
   # code goes here
 end
