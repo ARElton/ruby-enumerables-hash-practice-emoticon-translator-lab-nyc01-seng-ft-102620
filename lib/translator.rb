@@ -13,7 +13,7 @@ def load_library
    value.each do |key, value|
   
    binding.pry
-  
+  end
  end
  emoticons
 end
